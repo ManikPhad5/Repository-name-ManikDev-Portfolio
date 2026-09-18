@@ -54,7 +54,7 @@ import "./index.css";
 // BACKEND
 // =====================================================
 
-const API_BASE_URL = "/api";
+const API_BASE_URL = "https://manikdev-backend.onrender.com/api";
 
 // =====================================================
 // DEFAULT LINKS
@@ -70,7 +70,7 @@ const DEFAULT_EMAIL =
   "manikphad5@gmail.com";
 
 const DEFAULT_PHONE =
-  "+91 XXXXX XXXXX";
+  "9699907819";
 
 // Default profile photo (your current Google Drive photo)
 const DEFAULT_PROFILE_IMAGE =
@@ -96,7 +96,7 @@ function normalizeProfileImageUrl(value) {
 }
 
 const DEFAULT_RESUME =
-  "/resume.pdf";
+  "https://docs.google.com/document/d/1huj37Ax7Qy5opTyQ2-2wRmqforaiupE0/edit?usp=drivesdk&ouid=116660152528323200273&rtpof=true&sd=true";
 
 // =====================================================
 // NAVIGATION
